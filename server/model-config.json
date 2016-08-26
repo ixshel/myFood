@@ -40,5 +40,9 @@
   "saucer": {
     "dataSource": "mongoDB",
     "public": true
+  },
+  "comment": {
+    "dataSource": "mongoDB",
+    "public": true
   }
 }
