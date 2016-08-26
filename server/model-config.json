@@ -14,11 +14,12 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mongoDB",
+    "public": true
   },
   "AccessToken": {
-    "dataSource": "db",
-    "public": false
+    "dataSource": "mongoDB",
+    "public": true
   },
   "ACL": {
     "dataSource": "db",
@@ -31,5 +32,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "restaurant": {
+    "dataSource": "mongoDB",
+    "public": true
+  },
+  "saucer": {
+    "dataSource": "mongoDB",
+    "public": true
   }
 }

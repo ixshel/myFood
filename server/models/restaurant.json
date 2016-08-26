@@ -1,0 +1,34 @@
+{
+  "name": "restaurant",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "location": {
+      "type": "object"
+    },
+    "calification": {
+      "type": "number",
+      "required": true
+    },
+    "status": {
+      "type": "boolean"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "saucers": {
+      "type": "hasMany",
+      "model": "saucer",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
